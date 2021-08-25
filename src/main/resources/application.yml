@@ -11,10 +11,10 @@ spring:
           #password:
           search-paths:
             - 'f*' # the folders containing the config files - we use wildcards instead of adding all values
-          repos:
-            perf: #we choose the name we want
-              pattern: # we will give the url pattern that we will use to point that repo
-                - "*/perf"
-              uri: https://github.com/ilyesInzo/secondRepo
-              search-paths:
-                - 'f*'
+          #repos:
+            #perf: #we choose the name we want
+              #pattern: # we will give the url pattern that we will use to point that repo
+                #- "*/perf"
+              #uri: https://github.com/ilyesInzo/secondRepo
+              #search-paths:
+                #- 'f*'
