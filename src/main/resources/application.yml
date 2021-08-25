@@ -18,3 +18,9 @@ spring:
               #uri: https://github.com/ilyesInzo/secondRepo
               #search-paths:
                 #- 'f*'
+  security:
+    user:
+      name: admin
+      password: admin
+encrypt:
+  key: ABCD
